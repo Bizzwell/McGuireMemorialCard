@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">McGuire Memorial</string>
+    <string name="businessName">McGuire Memorial</string>
+    <string name="streetAddress">2119 Mercer Road</string>
+    <string name="cityStateZip">New Brighton, PA 15066</string>
+    <string name="businessUrl">www.mcguirememorial.org</string>
+    <string name="businessPhone">(724)843-3400</string>
+</resources>
