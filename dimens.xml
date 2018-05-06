@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="header_image_height">160dp</dimen>
+    <dimen name="banner_layout_height">200dp</dimen>
+    <dimen name="banner_margin_top">8dp</dimen>
+    <dimen name="information_pane_paddingLeft">24dp</dimen>
+    <dimen name="information_pane_paddingRight">24dp</dimen>
+    <dimen name="information_pane_marginBottom">8dp</dimen>
+    <dimen name="information_pane_header_TextSize">32sp</dimen>
+    <dimen name="information_pane_header_paddingBottom">8dp</dimen>
+    <dimen name="information_pane_default_TextSize">24sp</dimen>
+    <dimen name="information_pane_url_TextSize">20sp</dimen>
+    <dimen name="information_pane_url_paddingBottom">24dp</dimen>
+    <dimen name="information_pane_url_paddingTop">20dp</dimen>
+
+
+</resources>

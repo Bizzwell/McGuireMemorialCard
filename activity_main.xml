@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/header_image_height"
+        android:contentDescription="@string/businessName"
+        android:src="@drawable/mcguire_memorial_building2" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/banner_layout_height"
+        android:layout_marginTop="@dimen/banner_margin_top"
+        android:background="@android:color/white"
+        android:contentDescription="@string/inspiringHopeFosteringGrowth"
+        android:src="@drawable/inspiringhope" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="@dimen/information_pane_marginBottom"
+        android:gravity="bottom"
+        android:orientation="vertical"
+        android:paddingLeft="@dimen/information_pane_paddingLeft"
+        android:paddingRight="@dimen/information_pane_paddingRight">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:fontFamily="serif-monospace"
+            android:paddingBottom="@dimen/information_pane_header_paddingBottom"
+            android:text="@string/businessName"
+            android:textSize="@dimen/information_pane_header_TextSize"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:autoLink="map"
+            android:fontFamily="serif-monospace"
+            android:text="@string/streetAddress"
+            android:textSize="@dimen/information_pane_default_TextSize"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:autoLink="phone"
+            android:fontFamily="serif-monospace"
+            android:text="@string/businessPhone"
+            android:textSize="@dimen/information_pane_default_TextSize"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:autoLink="web"
+            android:fontFamily="serif-monospace"
+            android:gravity="center"
+            android:paddingBottom="@dimen/information_pane_url_paddingBottom"
+            android:paddingTop="@dimen/information_pane_url_paddingTop"
+            android:text="@string/businessUrl"
+            android:textSize="@dimen/information_pane_url_TextSize"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+</LinearLayout>
+
